@@ -1,0 +1,32 @@
+<html lang=pt-br>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA 3.0</title>
+</head>
+<body>
+	<header>
+	<h1>Informe os valores</h1>
+	</header>
+	<form action="resultado.php" method="get">
+		<p>
+			Valor 1:
+			<input type="text" name="num1" required> <br>
+			Valor 2:
+			<input type="text" name="num2" required>
+		</p>
+		<p>
+			Escolha a operação: <br>
+			<input type="radio" name="operacao" value="1" checked> Adição <br>
+			<input type="radio" name="operacao" value="2"> Subtração <br>
+			<input type="radio" name="operacao" value="3"> Multiplicação <br>
+			<input type="radio" name="operacao" value="4"> Divisão <br>
+			<input type="radio" name="operacao" value="5"> Potência <br>
+			<input type="radio" name="operacao" value="6"> Raiz Quadrada
+		</p>
+		<p>
+			<input type="submit" value="Calcular">
+		</p>
+	</form>
+</body>
+</html>
