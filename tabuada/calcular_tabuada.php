@@ -8,15 +8,11 @@
 		//recebendo cada idades e somando-as também
 		$soma = 0;
 		for ($cont = 1; $cont <= 10; $cont++) {
-			$idade = $_GET["idade$cont"];
-			$soma += $idade;
+			$mult = $cont * $num;
 		}
 		
-		//calcular a média
-		$media_idades = $soma / 10;
-		
 		//mostrando a soma
-		echo "<p> A média das idades informadas e $media_idades </p>";
+		echo "<p> $num x $cont = $mult </p>";
 	?>
 </body>
 </html>
