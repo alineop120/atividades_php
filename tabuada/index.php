@@ -4,9 +4,9 @@
 </head>
 <body>
 	<h1> TABUADA </h1>
-	<form action="calcular_tabuada.php" method="get">
+	<form action="calcular.php" method="get">
 		<p>
-			Informe numero:  
+			Tabuada do:  
 			<input type="text" name="numero">
 		</p>
 		<p>
